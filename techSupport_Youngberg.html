@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<!-- Joel R. Youngberg 23 May 2014 -->
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Tech Support</title>
+<style type="text/css">
+<!--
+	legend 		{color: #0000fe;
+				font-size: small;
+				margin-top: -13px;}
+
+	fieldset legend span{
+    background-color: white;}
+    
+    div.left	{float: left;
+    			 padding-right: 20px;}
+ -->
+ </style>
+ 
+</head>
+
+<body>
+<header>
+	<h1 style="text-align: center; color: #3399cc">TECH SUPPORT</h1>
+	<p>Please include the following information, how Course Technology may contact you, the product you are using, and the difficulty you are experiencing.</p>
+</header>
+
+<form method="post" action="mailto:bluwav@isp.com">
+<div class="left">
+<p> First Name: <br /><input name="firstname" type="text" size=" 35" /><br />
+    <br />
+	E-mail Address: <br /><input name="email" type="text" size="35" /><br />
+	<br />
+	Product Name: <br /><input name="productname" type="text" size="35" /></p>
+	<br />
+	<br />
+	<br />
+	<br />
+<p>Please give a brief description of the problem:</p>
+    <br />
+	<br />
+
+<p><input type="submit" value="Submit" />
+	<input type="reset" value="Reset" /></p>
+</div>
+<!-- Column Change here -->
+<div style="padding: 1px">
+<p> Last Name: <br /><input name="lastname" type="text" size="35" /></p>
+
+<fieldset style="border: 1px gray solid; border-radius: 10px">
+<legend><span>&nbsp;Customer Description&nbsp;</span></legend>
+    <p style="margin: 0px; padding-top: 5px; padding-bottom: 0px">
+	<input name="purchases" type="radio" value="Student" /> Student <br /> 
+	<input name="purchases" type="radio" value="Instructor" /> Instructor <br /> 
+	<input name="purchases" type="radio" value="Other" /> Other</p>
+	
+</fieldset>
+
+   <p>Product Type: 
+	<select name="product">
+	<option>CD-ROM</option>
+	<option>Software</option>
+	<option>Textbook</option>
+	<option>Other</option>
+	</select></p>
+	
+	<br />
+	<textarea name="other" rows="8" cols="50"></textarea>
+</div>
+</form>
+
+
+</body>
+</html>
