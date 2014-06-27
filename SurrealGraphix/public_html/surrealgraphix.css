@@ -1,0 +1,46 @@
+body {
+	font-family: Arial, Calibri, sans-serif;
+	background-color: black;
+	color: silver;
+	padding: 0px 0px 0px 0px;
+	text-align: center;
+	margin: 0px;
+	border: none;
+	
+}
+h1, h2 {
+	border-style: solid;
+	border-color: silver;
+	border-width: 0px 0px 1px 0px;
+	padding: 10px;
+	margin: 0;
+}
+a:link {
+	color: #003471;
+}
+a:visited {
+	color: #333333;
+}
+a:hover {
+	color: #02a9ff;
+}
+#center {
+	width: 600px;
+	margin:0 auto;
+	
+}
+#left {
+	width: 180px;
+	margin:0 auto;
+	float: left;
+}
+#right {
+	width: 180px;
+	margin:0 auto;
+	float: right;
+}
+
+.linkpadding {
+		padding: 1px;
+}
+	
